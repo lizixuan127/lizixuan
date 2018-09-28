@@ -12,7 +12,7 @@
     var option = {
         title: {
             text: '2014年至2017年空气质量变化',
-            subtext: '数据来源于中国气象局',
+            subtext: '数据来源于PM2.5历史数据网',
             x: 'center',
             textStyle: {
                 fontSize: 14
@@ -103,7 +103,7 @@ function CREATE_CONFIG(YEAR, ARY) {
         return {
             title: {
                 text: YEAR + '年度保定空气质量对比',
-                subtext: '数据来源于中国天气网',
+                subtext: '数据来源于PM2.5历史数据网',
                 x: 'center',
                 textStyle: {
                     fontSize: 14
